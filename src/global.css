@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0d1117;
+
+  ::-webkit-scrollbar {
+    background: none;
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: none;
+    border-radius: 0.1rem;
+  }
+}

@@ -1,0 +1,36 @@
+.inputContainer {
+  box-sizing: border-box;
+  display: flex;
+  background: #212830;
+  width: 100%;
+  border-radius: 0.2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  gap: 0.5rem;
+
+  input {
+    flex-grow: 1;
+    background: transparent;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    color: #f3f3f3;
+  }
+  button {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background: none;
+    border: 2px solid #469ae6;
+    color: #469ae6;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+    &:hover {
+      background: #469ae6;
+      color: #f2f2f2;
+    }
+  }
+}

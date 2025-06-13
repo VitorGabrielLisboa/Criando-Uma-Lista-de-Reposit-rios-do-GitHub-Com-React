@@ -1,0 +1,27 @@
+.main {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: 2px solid #22272e;
+  border-radius: 0.3rem;
+  width: 500px;
+  height: auto;
+  max-height: 300px;
+
+  color: #f3f3f3;
+  padding: 1rem;
+  .input {
+    position: sticky;
+    top: 0;
+  }
+  .content {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+}

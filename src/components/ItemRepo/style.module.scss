@@ -1,0 +1,46 @@
+.itemBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #fafafa;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0.2rem 0;
+    color: #f9f9f980;
+  }
+
+  .icons {
+    display: flex;
+    gap: 0.75rem;
+
+    svg {
+      font-size: 1.2rem;
+      color: #f9f9f980;
+      transition: all 0.5s ease;
+
+      &:last-child {
+        &:hover {
+          color: crimson;
+        }
+      }
+    }
+    svg.link {
+      &:hover {
+        color: #469ae6;
+      }
+    }
+  }
+  &:hover {
+    border-radius: 0.2rem 0 0 0.2rem;
+    background: #1b1f24;
+  }
+}

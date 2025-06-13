@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="/src/img/download.png" alt="Calculator Banner" title="Calculator Banner" width="200">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![Static Badge](https://img.shields.io/badge/React-blue?style=flat&logo=react&logoColor=%23ffffff&labelColor=%23222222&color=%2361DAFB) ![Static Badge](https://img.shields.io/badge/SCSS-hotpink?style=flat&logo=sass&logoColor=%23ffffff&labelColor=%23222222&color=%23CC6699) ![Static Badge](https://img.shields.io/badge/Font%20Awesome-green?style=flat&logo=font-awesome&logoColor=%23ffffff&labelColor=%23222222&color=%234E9A06) ![Static Badge](https://img.shields.io/badge/Axios-blueviolet?style=flat&logo=axios&logoColor=%23ffffff&labelColor=%23222222&color=%235A29E4)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+# 📋 Listagem de Repositórios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Projeto desenvolvido para ser entregue na Formação React Developer, na plataforma da [DIO](https://www.dio.me/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚒️ Ferramentas Utilizadas
 
-### `npm test`
+- **[React](https://reactjs.org/)**: Biblioteca JavaScript para construir interfaces de usuário.
+- **[SCSS](https://sass-lang.com/)**: Biblioteca para estilização de componentes no React.
+- **[Font Awesome](https://fontawesome.com/)**: Biblioteca de ícones.
+  **[Axios](https://axios-http.com/)**: Cliente HTTP baseado em Promises para fazer requisições à API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📌 Funcionalidades
 
-### `npm run build`
+- **Busca de Repositórios**: Adicione repositórios à sua lista pesquisando por seu nome de usuário/organização e nome do repositório (ex: `facebook/react`, `google/angular`).
+- **Listagem Dinâmica**: Visualize todos os repositórios adicionados em uma lista intuitiva.
+- **Remoção de Repositórios**: Remova facilmente qualquer repositório da lista.
+- **Persistência de Dados**: A lista de repositórios é automaticamente salva no `localStorage` do navegador, garantindo que os dados permaneçam mesmo após recarregar a página.
+- **Prevenção de Duplicatas**: Não é possível adicionar o mesmo repositório duas vezes à lista.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚠️ Limitação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A aplicação depende dos limites de requisições da API do GitHub, podendo ser necessário autenticar-se para realizar mais requisições.
