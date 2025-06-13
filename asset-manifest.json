@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Criando-Uma-Lista-de-Reposit-rios-do-GitHub-Com-React/static/css/main.66b3bac2.css",
+    "main.js": "/Criando-Uma-Lista-de-Reposit-rios-do-GitHub-Com-React/static/js/main.32d6acd3.js",
+    "index.html": "/Criando-Uma-Lista-de-Reposit-rios-do-GitHub-Com-React/index.html",
+    "main.66b3bac2.css.map": "/Criando-Uma-Lista-de-Reposit-rios-do-GitHub-Com-React/static/css/main.66b3bac2.css.map",
+    "main.32d6acd3.js.map": "/Criando-Uma-Lista-de-Reposit-rios-do-GitHub-Com-React/static/js/main.32d6acd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66b3bac2.css",
+    "static/js/main.32d6acd3.js"
+  ]
+}
